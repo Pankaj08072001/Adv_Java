@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table>
+		<caption>Enter Book Details</caption>
+		<tr>
+			<td>Enter Book ID :</td>
+			<td><input type="number" name="id"></td>
+		</tr>
+		
+		<tr>
+			<td>Enter Book Name :</td>
+			<td><input type="text" name="name"></td>
+		</tr>
+		
+		<tr>
+			<td>Enter Book Price :</td>
+			<td><input type="text" name="price"></td>
+		</tr>
+		
+		<tr>
+			<td>Author Name :</td>
+			<td><input type="text" name=""></td>
+		</tr>
+		
+		<tr>
+			<td>Enter Book ID :</td>
+			<td><input type="number" name="id"></td>
+		</tr>
+
+	</table>
+
+</body>
+</html>

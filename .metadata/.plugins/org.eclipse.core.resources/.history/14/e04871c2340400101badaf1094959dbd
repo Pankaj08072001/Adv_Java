@@ -1,0 +1,23 @@
+package com.ay.connection;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DBConnection {
+	private static final String driverClassName = "com.mysql.cj.jdbc.Driver";
+	private static final String url = "jdbc:mysql:/// Book_Data";
+	private static final String userName = "root";
+	private static final String password = "12345";
+	
+
+	public static Connection getConnection() {
+		Connection con = null;
+		try {
+			Class.forName(driverClassName);
+			con = DriverManager.getConnection(url, userName, password);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return con;
+	}
+}

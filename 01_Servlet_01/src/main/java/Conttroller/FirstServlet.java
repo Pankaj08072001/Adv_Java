@@ -1,0 +1,39 @@
+package Conttroller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import jakarta.servlet.GenericServlet;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.ServletRequest;
+import jakarta.servlet.ServletResponse;
+import jakarta.servlet.annotation.WebServlet;
+
+
+@WebServlet("/First")
+public class FirstServlet extends GenericServlet {
+	private static final long serialVersionUID = 1L;
+	@Override
+	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+		res.setContentType("text/html");
+		PrintWriter pw = res.getWriter();
+
+		String name = req.getParameter("sname");
+		String gender = req.getParameter("gender");
+		String course = req.getParameter("Course");
+		String date = req.getParameter("doj");
+		String fesss = req.getParameter("fess");
+		String add = req.getParameter("addr");
+		
+		pw.print("*********************Student Details*******************" + "<br>");
+
+		pw.print("Sturdent name : " + name + "<br> ");
+		pw.print("Gender        : " + gender +"<br> ");
+		pw.print("Course is     : " + course +"<br> ");
+		pw.print("Date          : " + date +  "<br>");
+		pw.print("Your fess is  : " + fesss + "<br> ");
+		pw.print("Address is    : " + add +   "<br> ");
+		
+
+	}
+
+}

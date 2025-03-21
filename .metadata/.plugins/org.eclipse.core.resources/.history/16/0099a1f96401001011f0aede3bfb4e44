@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+	Enter ist Number : <input type="number" name="first"><br>
+	Enter 2nd Number : <input type="number" name="second"><br>
+	<input type="submit" name="s" value="Add">
+	<input type="submit" name="s" value="Sub">
+	
+</form>
+</body>
+</html>

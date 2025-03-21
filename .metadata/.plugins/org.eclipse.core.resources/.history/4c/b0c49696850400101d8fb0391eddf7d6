@@ -1,0 +1,21 @@
+package com.ay.dao;
+
+import java.sql.Connection;
+
+import com.ay.connection.DBConnection;
+
+public class ViewBookDao {
+	private static final String Query = "SELECT * BOOKDETAILS";
+	public void getAllBook() {
+		try {
+			Connection con = DBConnection.getConnection();
+			
+			
+			
+			
+			
+		} catch (Exception e) {
+
+		}
+	}
+}

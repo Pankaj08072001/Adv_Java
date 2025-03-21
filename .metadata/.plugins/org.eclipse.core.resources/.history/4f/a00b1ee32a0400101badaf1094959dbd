@@ -1,0 +1,12 @@
+package com.ay.bean;
+
+import java.io.Serializable;
+
+public class BookBean implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+	private Integer id;
+	private String name , author;
+	private Float price;
+	
+}

@@ -1,0 +1,22 @@
+package com.ay.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import com.ay.bean.BookBean;
+import com.ay.connection.DBConnection;
+
+public class ViewByCodeDao {
+	private static final String Query = "SELECT * FROM BOOKDETAILS WHERE BOOKID=? ";
+
+	public BookBean getById(BookBean bb) {
+		try {
+			Connection con = DBConnection.getConnection();
+			PreparedStatement ps = con.prepareStatement(Query);
+		} catch (Exception e) {
+
+		}
+
+		return bb;
+	}
+}

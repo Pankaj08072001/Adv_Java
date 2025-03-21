@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JAVA_IN_FRONTEND</title>
+<style>
+form {
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+
+	<form action="First" method="post">
+		<h1>Student Registration From</h1>
+		<table>
+			<tr>
+				<td>Student name :</td>
+				<td><input type="text" name="sname"></td>
+			</tr>
+			<tr>
+				<td>Gender :</td>
+				<td>
+				    <input type="radio" name="gender" value ="male"> Male 
+				    <input type="radio" name="gender" value="female"> Female
+				</td>
+			</tr>
+
+			<tr>
+				<td>Course : :</td>
+				<td><select name="Course">
+						<option value="Java Full Stack">Java Full Stack</option>
+						<option value="Python Full Stack">Python Full Stack</option>
+						<option value=".net Full Stack">.net Full Stack</option>
+						<option value="MEAN Full Stack">MEAN Full Stack</option>
+						<option value="MERN Full Stack">MERN Full Stack</option>
+				</select></td>
+			</tr>
+
+			<tr>
+				<td> D.o.j. :</td>
+				<td><input type="date" name="doj"></td>
+			</tr>
+
+
+			<tr>
+				<td>Fees :</td>
+				<td><input type="number" name="fess" min="0" max="100000"></td>
+			</tr>
+
+			<tr>
+				<td>Address :</td>
+				<td><input type="text" name="addr"></td>
+			</tr>
+
+			<tr>
+				<td><input type="submit"></td>
+				<td><input type="reset"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

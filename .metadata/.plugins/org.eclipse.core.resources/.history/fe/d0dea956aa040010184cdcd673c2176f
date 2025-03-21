@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="AddBook.html">Add Book</a> <br>
+<a href="view">View Books</a>
+<a href="ViewById.html">View Books by Id</a>
+</body>
+</html>

@@ -1,0 +1,35 @@
+package com.ay.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+
+import com.ay.bean.BookBean;
+import com.ay.connection.DBConnection;
+
+public class ViewBookDao<E> {
+	private static final String Query = "SELECT * BOOKDETAILS";
+	public void getAllBook() {
+		ArrayList<BookBean> al = null;
+		try {
+			Connection con = DBConnection.getConnection();
+			PreparedStatement ps = con.prepareStatement(Query);
+
+			ResultSet rs = ps.executeQuery();
+			while(rs.next()) {
+				BookBean bb = new BookBean();
+				bb.setId(rs.getInt(1));
+				bb.setString(rs.getString(1));
+				bb.setPrice(rs.getFloat(1));
+				bb.setAuthor(rs.getString(1));
+				
+			}
+			
+			
+			
+		} catch (Exception e) {
+
+		}
+	}
+}

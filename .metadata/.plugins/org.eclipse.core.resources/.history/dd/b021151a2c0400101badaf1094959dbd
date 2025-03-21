@@ -1,0 +1,25 @@
+package com.ay.connection;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DBConnection {
+	private static final String driverClassName = "com.mysql.cj.jdbc.Driver";
+	private static final String url = "jdbc:mysql:/// Book_Data";
+	private static final String userName = "root";
+	private static final String password = "12345";
+
+	static {
+		try {
+			Class.forName(driverClassName);
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static Connection getConnection() throws SQLException {
+		return DriverManager.getConnection(url, userName, password);
+	}
+
+}

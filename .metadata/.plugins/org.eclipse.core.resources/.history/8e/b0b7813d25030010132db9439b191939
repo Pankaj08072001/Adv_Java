@@ -1,0 +1,29 @@
+package com.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import com.entity.Jobs;
+
+public class JobDAO {
+	private Connection con;
+
+	public JobDAO(Connection con) {
+		super();
+		this.con = con;
+	}
+
+	public boolean addJobs(Jobs j) {
+		boolean flag = false;
+
+		try {
+			PreparedStatement ps = con.prepareStatement(sql);
+		} 
+		catch (Exception e) {
+
+		}
+
+		return flag;
+	}
+
+}

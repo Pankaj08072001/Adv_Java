@@ -1,0 +1,5 @@
+package com.ay.connection;
+
+public class DBConnection {
+
+}

@@ -1,0 +1,29 @@
+package Test;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import jakarta.servlet.GenericServlet;
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.ServletRequest;
+import jakarta.servlet.ServletResponse;
+import jakarta.servlet.annotation.WebServlet;
+
+@WebServlet("/add")
+public class AddServlet extends GenericServlet {
+	private static final long serialVersionUID = 1L;
+	@Override
+	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+		res.setContentType("text/html");
+		PrintWriter pw = res.getWriter();
+		
+		String First = req.getParameter("first");
+		String Second = req.getParameter("second");
+		
+		pw.print("Addition : " + Integer.parseInt(Second)+Integer.parseInt(First));
+		
+		RequestDispatcher rd = req.getRequestDispatcher("ADDP.html");
+		rd.forward(req, res);
+	}
+}

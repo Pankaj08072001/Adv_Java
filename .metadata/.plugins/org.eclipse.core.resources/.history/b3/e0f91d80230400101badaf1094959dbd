@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table>
+		<caption>Enter Book Details</caption>
+		<tr>
+			<td>Enter Book ID :</td>
+			<td><input type="number" name="id"></td>
+		</tr>
+
+	</table>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+package com.dao;
+
+import java.sql.Connection;
+
+import com.entity.Jobs;
+
+public class JobDAO {
+	private Connection con;
+
+	public JobDAO(Connection con) {
+		super();
+		this.con = con;
+	}
+	
+	public boolean addJobs(Jobs j) {
+		
+	}
+
+}

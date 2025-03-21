@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.dao.JobDAO.con&apos; in &apos;com.dao.JobDAO&apos;&#x0D;&#x0A;- Original project: &apos;06_Job_portal_Project&apos;&#x0D;&#x0A;- Original element: &apos;com.dao.JobDAO.con&apos;&#x0D;&#x0A;- Getter method name: &apos;getCon&apos;&#x0D;&#x0A;- Setter method name: &apos;setCon&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;con, ...&apos;" flags="589830" getter="getCon" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dao{JobDAO.java[JobDAO^con" insertion="-1" setter="setCon" stamp="1742207222338" version="1.0" visibility="1"/>
+</session>

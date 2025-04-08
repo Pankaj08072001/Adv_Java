@@ -28,6 +28,13 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Advancejava_project</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Personal_Project/AT_Airlines/Advancejava_project</locationURI>
+		</link>
+	</linkedResources>
 	<filteredResources>
 		<filter>
 			<id>1742485539531</id>

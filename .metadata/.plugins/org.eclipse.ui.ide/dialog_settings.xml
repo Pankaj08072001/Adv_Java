@@ -3,9 +3,13 @@
 	<section name="SmartImportWizard">
 		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
-		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\SpringFramwork\Advancejava_project"/>
+			<item value="C:\Users\OM\OneDrive\Desktop\AT_Airlines\Advancejava_project"/>
+			<item value="C:\Users\OM\OneDrive\Desktop\AT_Airlines"/>
+			<item value="E:\NewServlet\Bakery-Management-System"/>
 			<item value="E:\Servlet"/>
 		</list>
 		<section name="SmartImportWizard.dialogBounds">
@@ -17,7 +21,7 @@
 		</section>
 	</section>
 	<section name="ChooseWorkspaceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="611"/>
+		<item key="DIALOG_X_ORIGIN" value="251"/>
 		<item key="DIALOG_Y_ORIGIN" value="218"/>
 	</section>
 	<section name="WORKBENCH_SETTINGS">
@@ -25,9 +29,9 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.wst.web.ui"/>
+			<item value="org.eclipse.m2e"/>
 		</list>
 		<section name="NewWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="0"/>

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\NewServlet"/>
 			<item value="E:\NewServlet\LoginAndResgister"/>
 			<item value="E:\Servlet"/>
 			<item value="E:\Servlet\04_TDaoMVC"/>
@@ -28,18 +29,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="Com.traning"/>
-			<item value="Com.traning._DaoMVC"/>
+			<item value="Booking_Ticket"/>
 		</list>
 		<list key="groupId">
-			<item value="Com.traning"/>
+			<item value="Booking_Ticket"/>
 		</list>
 		<list key="artifactId">
-			<item value="06_Job_portal_Project"/>
-			<item value="06_LearningProject"/>
-			<item value="05_Maven_ProjectDAOMVC"/>
-			<item value="04_DaoMVC"/>
-			<item value="05_ForTesting"/>
+			<item value="TestProject"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

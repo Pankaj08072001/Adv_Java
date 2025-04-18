@@ -26,7 +26,7 @@ public class FirstServlet extends GenericServlet {
 		
 		pw.print("*********************Student Details*******************" + "<br>");
 
-		pw.print("Sturdent name : " + name + "<br> ");
+		pw.print("<h1>Sturdent name : " + name + "<br></h1> ");
 		pw.print("Gender        : " + gender +"<br> ");
 		pw.print("Course is     : " + course +"<br> ");
 		pw.print("Date          : " + date +  "<br>");

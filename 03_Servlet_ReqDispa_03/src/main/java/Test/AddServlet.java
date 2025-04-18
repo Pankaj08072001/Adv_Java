@@ -2,7 +2,6 @@ package Test;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-
 import jakarta.servlet.GenericServlet;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;

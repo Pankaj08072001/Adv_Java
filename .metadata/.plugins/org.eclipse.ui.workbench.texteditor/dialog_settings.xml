@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="&lt;!DOCTYPE html&gt;"/>
 			<item value="samedata"/>
 			<item value="Timestamp"/>
 			<item value=" &lt;h2&gt;List of Names&lt;/h2&gt;"/>
@@ -17,7 +18,6 @@
 			<item value="studentTT"/>
 			<item value="student"/>
 			<item value="StudentTT"/>
-			<item value="&lt;!DOCTYPE html&gt;"/>
 		</list>
 		<list key="replacehistory">
 			<item value="stf"/>

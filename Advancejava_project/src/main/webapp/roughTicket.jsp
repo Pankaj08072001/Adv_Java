@@ -12,20 +12,23 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	opacity: 0.8;
+	font-size:25px;
 }
 
 .info {
-	height: 70%;
-	width: 50%;
+	height:100%;
+	width: 25%;
 	background-color: aliceblue;
-	margin: 0 auto;
-	padding: 20px;
+	margin: 20px auto;
+	padding: 40px 20px;
 	margin-top: 20vh;
+	font-size:20px;
 }
 
 h1 {
 	text-align: center;
-	color: #344a72
+	color: #344a72;
+	font-size:25px;
 }
 
 #button {
@@ -37,7 +40,6 @@ h1 {
 	border-radius: 10px;
 	background-color: #344a72;
 	color: white;
-	font-size: 18px;
 }
 
 

@@ -6,6 +6,18 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\NewServlet\BookWebApp"/>
+			<item value="E:\NewServlet\Doctor-Patient-Portal"/>
+			<item value="E:\Web Development\HTML\Doctor-Patient-Portal-AdvanceJavaWebProject\Doctor-Patient-Portal"/>
+			<item value="E:\SpringFramwork\Doctor-Patient-Portal"/>
+			<item value="E:\Web Development\HTML\Demo.zip"/>
+			<item value="E:\Web Development\HTML\Advance-Java-Project"/>
+			<item value="E:\Web Development\Doctor-Patient-Portal"/>
+			<item value="E:\Web Development\Doctor-Patient-Portal-AdvanceJavaWebProject"/>
+			<item value="E:\Web Development\Doctor-Patient-Portal-AdvanceJavaWebProject\Doctor-Patient-Portal"/>
+			<item value="E:\Web Development\Advance-Java-Project"/>
+			<item value="E:\NewServlet\Air_Line_project"/>
+			<item value="E:\NewServlet\Advancejava_project"/>
 			<item value="E:\SpringFramwork\Advancejava_project"/>
 			<item value="C:\Users\OM\OneDrive\Desktop\AT_Airlines\Advancejava_project"/>
 			<item value="C:\Users\OM\OneDrive\Desktop\AT_Airlines"/>
@@ -29,9 +41,11 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.m2e"/>
+			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.jst.j2ee.internal"/>
 		</list>
 		<section name="NewWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="0"/>

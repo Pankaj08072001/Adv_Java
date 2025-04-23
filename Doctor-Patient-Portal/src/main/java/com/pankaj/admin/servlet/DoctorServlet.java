@@ -1,7 +1,6 @@
 package com.pankaj.admin.servlet;
 
 import java.io.IOException;
-
 import com.pankaj.dao.DoctorDAO;
 import com.pankaj.db.DBConnection;
 import com.pankaj.entity.Doctor;

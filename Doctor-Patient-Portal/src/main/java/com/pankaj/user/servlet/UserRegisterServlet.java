@@ -1,7 +1,6 @@
 package com.pankaj.user.servlet;
 
 import java.io.IOException;
-
 import com.pankaj.dao.UserDAO;
 import com.pankaj.db.DBConnection;
 import com.pankaj.entity.User;

@@ -29,10 +29,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="JobProtal"/>
 		</list>
 		<list key="groupId">
+			<item value="06_Job_Protal"/>
 		</list>
 		<list key="artifactId">
+			<item value="JobProtalProject"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

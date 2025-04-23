@@ -8,13 +8,13 @@
   	<servlet-name>myuserServlet</servlet-name>
   	<display-name>myuserServlet</display-name>
   	<description></description>
-  	<servlet-class>com.hms.user.servlet.myuserServlet</servlet-class>
+  	<servlet-class>com.pankaj.user.servlet.myuserServlet</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>MyNewServlet</servlet-name>
   	<display-name>MyNewServlet</display-name>
   	<description></description>
-  	<servlet-class>com.hms.user.servlet.MyNewServlet</servlet-class>
+  	<servlet-class>com.pankaj.user.servlet.MyNewServlet</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>myuserServlet</servlet-name>

@@ -6,6 +6,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\QuestionOfJava\Advance-Java-Project"/>
+			<item value="E:\Personal_Project\Java_Project\Doctor-Patient-Portal"/>
 			<item value="E:\Personal_Project\Job_Protal"/>
 			<item value="E:\Personal_Project\Doctor-Patient-Portal"/>
 			<item value="E:\NewServlet\Job_Protal"/>

@@ -2,8 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="E:\NewServlet\LoginAndResgister"/>
 			<item value="E:\NewServlet"/>
+			<item value="E:\Personal_Project\E-commerce_website"/>
+			<item value="E:\NewServlet\LoginAndResgister"/>
 			<item value="E:\Servlet"/>
 			<item value="E:\Servlet\04_TDaoMVC"/>
 		</list>
@@ -29,13 +30,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="JobProtal"/>
+			<item value="com.pankaj"/>
 		</list>
 		<list key="groupId">
-			<item value="06_Job_Protal"/>
+			<item value="com.pankaj"/>
 		</list>
 		<list key="artifactId">
-			<item value="JobProtalProject"/>
+			<item value="08_TestProject"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

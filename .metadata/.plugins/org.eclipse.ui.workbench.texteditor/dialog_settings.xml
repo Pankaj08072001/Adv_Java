@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="Pankaj"/>
 		<list key="findhistory">
+			<item value="shashi"/>
+			<item value="com."/>
 			<item value="&lt;!DOCTYPE html&gt;"/>
 			<item value="samedata"/>
 			<item value="Timestamp"/>
@@ -20,6 +22,8 @@
 			<item value="StudentTT"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Pankaj"/>
+			<item value="pankaj"/>
 			<item value="stf"/>
 			<item value="Staff"/>
 			<item value="staff"/>
